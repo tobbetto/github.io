@@ -1,0 +1,277 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>GUIA TÉCNICA &mdash; BlocksInCloud 0.0.1.a documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../../../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../../../_static/jquery.js"></script>
+        <script type="text/javascript" src="../../../_static/underscore.js"></script>
+        <script type="text/javascript" src="../../../_static/doctools.js"></script>
+        <script type="text/javascript" src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="ORDER CREATION FLOW" href="orderflow/orderflow_2.html" />
+    <link rel="prev" title="MANUAL USUARIO ORDER MAILBOX" href="../guia_funcional/orders/Manual_de_usuario.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> BlocksInCloud
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">PRODUCTO:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../producto/intro_producto_billing.html">Producto</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Guía Funcional:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../guia_funcional/index_func.html">Introducción</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Guía Técnica:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">GUIA TÉCNICA</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#infraestructura">Infraestructura</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#arquitectura-del-sistema">Arquitectura del sistema</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#diseno-de-datos">Diseño de datos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#componentes-sw">Componentes SW</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="orderflow/orderflow_2.html">ORDER CREATION FLOW</a></li>
+<li class="toctree-l1"><a class="reference internal" href="apificacion/funcionalidades_apificacion.html">FUNCIONALIDAD APIFICACIÓN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data_lake/plantilla_documentacion_Fomento_uso_app_v02.html">JOURNEY - Fomento Uso App</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Guía de configuración:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../guia_configuracion/indice_configuracion.html">GUIA DE CONFIGURACIÓN E INSTALACIÓN</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Anexo:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../plantillas/tobbi.html">TITULO DEL DOCUMENTO AQUÍ</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Glosario:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../glosario/glosario_es.html">GLOSARIO</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">BlocksInCloud</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html">Docs</a> &raquo;</li>
+        
+      <li>GUIA TÉCNICA</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../../_sources/rst_docs/es_es/guia_tecnica/indice_tecnico.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <p class="centered">
+<strong><a class="reference internal" href="../../../_images/imagedocumentation2.PNG"><img alt="image88" src="../../../_images/imagedocumentation2.PNG" style="width: 1.84732in; height: 0.49308in;" /></a></strong></p><div class="section" id="guia-tecnica">
+<h1>GUIA TÉCNICA<a class="headerlink" href="#guia-tecnica" title="Permalink to this headline">¶</a></h1>
+<p>El objetivo del documento es recoger las especificaciones técnicas del
+sistema y del entorno tecnológico, junto con la especificación detallada
+de los componentes del sistema de información.</p>
+<div class="section" id="infraestructura">
+<h2>Infraestructura<a class="headerlink" href="#infraestructura" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="arquitectura-del-sistema">
+<h2>Arquitectura del sistema<a class="headerlink" href="#arquitectura-del-sistema" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Estructura física de la información</p></li>
+<li><p>Estructura lógica de la información</p></li>
+<li><p>Descripción jerárquica Indica de qué forma se organizan
+jerárquicamente los componentes del sistema. Es decir, indica si los
+mismos están organizados en paquetes, espacios del nombres o
+estructura monolítica.</p></li>
+<li><p>Diagrama de módulos: Diagrama donde se representan todas las partes
+que componen el sistema y las relaciones que existen entre ellos.</p></li>
+<li><p>Descripción individual de los módulos: Para cada módulo:</p></li>
+</ol>
+<ul class="simple">
+<li><p>Descripción general y propósito</p></li>
+<li><p>Responsabilidad y restricciones</p></li>
+<li><p>Dependencias</p></li>
+</ul>
+<ol class="arabic simple" start="6">
+<li><p>Dependencias externas</p></li>
+</ol>
+</div>
+<div class="section" id="diseno-de-datos">
+<h2>Diseño de datos<a class="headerlink" href="#diseno-de-datos" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple" start="7">
+<li><p>Datos de entrada</p></li>
+<li><p>Datos internos</p></li>
+<li><p>Datos salida</p></li>
+</ol>
+</div>
+<div class="section" id="componentes-sw">
+<h2>Componentes SW<a class="headerlink" href="#componentes-sw" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple" start="10">
+<li><p>Componentes básicos</p></li>
+<li><p>Estructura SW</p></li>
+<li><p>Algoritmos y librerías básicas</p></li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="orderflow/orderflow_2.html" class="btn btn-neutral float-right" title="ORDER CREATION FLOW" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../guia_funcional/orders/Manual_de_usuario.html" class="btn btn-neutral float-left" title="MANUAL USUARIO ORDER MAILBOX" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, TLPZ
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

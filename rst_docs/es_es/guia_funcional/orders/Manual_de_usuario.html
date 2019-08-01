@@ -1,0 +1,418 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>MANUAL USUARIO ORDER MAILBOX &mdash; BlocksInCloud 0.0.1.a documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../../../../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../../" src="../../../../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../../../../_static/jquery.js"></script>
+        <script type="text/javascript" src="../../../../_static/underscore.js"></script>
+        <script type="text/javascript" src="../../../../_static/doctools.js"></script>
+        <script type="text/javascript" src="../../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+    <link rel="next" title="GUIA TÉCNICA" href="../../guia_tecnica/indice_tecnico.html" />
+    <link rel="prev" title="GUIA FUNCIONAL" href="../indice_funcional.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../../index.html" class="icon icon-home"> BlocksInCloud
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">PRODUCTO:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../producto/intro_producto_billing.html">Producto</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Guía Funcional:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../index_func.html">Introducción</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../indice_funcional.html">GUIA FUNCIONAL</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">MANUAL USUARIO ORDER MAILBOX</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#hoja-de-estado">Hoja de estado</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#introduccion">Introducción</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#objeto-y-alcance-del-documento">Objeto y alcance del documento</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#definiciones-y-acronimos">Definiciones y acrónimos</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#referencias">Referencias</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#descripcion-web">Descripción WEB</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#pagina-principal">Página principal</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#busqueda-de-pedidos">Búsqueda de pedidos.</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#section-to-cross-reference">Section to cross-reference</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#detalle-del-pedido">Detalle del pedido.</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#pedido-terminado">Pedido terminado.</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Guía Técnica:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../guia_tecnica/indice_tecnico.html">GUIA TÉCNICA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../guia_tecnica/orderflow/orderflow_2.html">ORDER CREATION FLOW</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../guia_tecnica/apificacion/funcionalidades_apificacion.html">FUNCIONALIDAD APIFICACIÓN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../guia_tecnica/data_lake/plantilla_documentacion_Fomento_uso_app_v02.html">JOURNEY - Fomento Uso App</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Guía de configuración:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../guia_configuracion/indice_configuracion.html">GUIA DE CONFIGURACIÓN E INSTALACIÓN</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Anexo:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../plantillas/tobbi.html">TITULO DEL DOCUMENTO AQUÍ</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Glosario:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../glosario/glosario_es.html">GLOSARIO</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../index.html">BlocksInCloud</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../index_func.html">Introducción</a> &raquo;</li>
+        
+      <li>MANUAL USUARIO ORDER MAILBOX</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../../../_sources/rst_docs/es_es/guia_funcional/orders/Manual_de_usuario.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <p><a class="reference internal" href="../../../../_images/image11.png"><img alt="logo (2)" src="../../../../_images/image11.png" style="width: 2.54167in; height: 0.75in;" /></a></p>
+<div class="section" id="manual-usuario-order-mailbox">
+<span id="index-0"></span><h1>MANUAL USUARIO ORDER MAILBOX<a class="headerlink" href="#manual-usuario-order-mailbox" title="Permalink to this headline">¶</a></h1>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 75%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>Client:</p></td>
+<td><p>Telepizza</p></td>
+</tr>
+<tr class="row-even"><td><p>Department:</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>Proyect:</p></td>
+<td><p>Manual Usuario Order Mailbox v1.0</p></td>
+</tr>
+<tr class="row-even"><td><p>Document:</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>Reference:</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>Version:</p></td>
+<td><p>1.0</p></td>
+</tr>
+<tr class="row-odd"><td><p>Date:</p></td>
+<td><p>18/03/2019</p></td>
+</tr>
+</tbody>
+</table>
+<p>Hoja de estado</p>
+<p><a class="reference external" href="#introduccion">Introducción</a></p>
+<p><a class="reference external" href="#objeto-y-alcance-del-documento">Objeto y alcance del documento</a></p>
+<p><a class="reference external" href="#definiciones-y-acronimos">Definiciones y acrónimos</a></p>
+<p><a class="reference external" href="#referencias">Referencias</a></p>
+<p><a class="reference external" href="#_Toc13145528">Descripción WEB</a></p>
+<p><a class="reference external" href="#pagina-principal">Página principal</a></p>
+<p><a class="reference external" href="#busqueda-de-pedidos.">Búsqueda de pedidos.</a></p>
+<p><a class="reference external" href="#detalle-del-pedido.">Detalle del pedido.</a></p>
+<p><a class="reference external" href="#pedido-terminado.">Pedido terminado.</a></p>
+<div class="section" id="hoja-de-estado">
+<h2>Hoja de estado<a class="headerlink" href="#hoja-de-estado" title="Permalink to this headline">¶</a></h2>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 15%" />
+<col style="width: 20%" />
+<col style="width: 52%" />
+<col style="width: 14%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>Version</p></td>
+<td><p>Date</p></td>
+<td><p>Description</p></td>
+<td><p>Author</p></td>
+</tr>
+<tr class="row-even"><td><p>1.0</p></td>
+<td><p>18/03/2019</p></td>
+<td><p>Manual de Usuario Order Mailbox</p></td>
+<td><p>Vector</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="introduccion">
+<h2>Introducción<a class="headerlink" href="#introduccion" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="objeto-y-alcance-del-documento">
+<h3>Objeto y alcance del documento<a class="headerlink" href="#objeto-y-alcance-del-documento" title="Permalink to this headline">¶</a></h3>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line">El propósito de este documento es describir la aplicación Order
+Mailbox.</div>
+</div>
+</div>
+<div class="section" id="definiciones-y-acronimos">
+<h3>Definiciones y acrónimos<a class="headerlink" href="#definiciones-y-acronimos" title="Permalink to this headline">¶</a></h3>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 36%" />
+<col style="width: 64%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>Nombre</p></td>
+<td><p>Definición</p></td>
+</tr>
+<tr class="row-even"><td><p>TPZ</p></td>
+<td><p><strong>Telepizza</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p>PH</p></td>
+<td><p><strong>PizzaHut</strong></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="referencias">
+<h3>Referencias<a class="headerlink" href="#referencias" title="Permalink to this headline">¶</a></h3>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 46%" />
+<col style="width: 54%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>Referencia</p></td>
+<td><p>Descripción</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="descripcion-web">
+<h2>Descripción WEB<a class="headerlink" href="#descripcion-web" title="Permalink to this headline">¶</a></h2>
+<p>Esta sección describe las capturas de pantalla de la aplicación web
+Order Mailbox:</p>
+<p><a class="reference external" href="https://ordermailbox.aws.telepizza.com/">https://ordermailbox.aws.telepizza.com/</a></p>
+<p>Con esta aplicación puede visualizar los pedidos realizados en tiendas
+que no existen en el sistema de Telepizza.</p>
+<div class="section" id="pagina-principal">
+<h3>Página principal<a class="headerlink" href="#pagina-principal" title="Permalink to this headline">¶</a></h3>
+<p>Todas las opciones disponibles se muestran en la página principal. Estas
+opciones se mostrarán en función de los permisos que tenga el usuario.</p>
+<p><a class="reference internal" href="../../../../_images/image2.png"><img alt="image1" src="../../../../_images/image2.png" style="width: 5.89583in; height: 2.11458in;" /></a></p>
+</div>
+<div class="section" id="busqueda-de-pedidos">
+<h3>Búsqueda de pedidos.<a class="headerlink" href="#busqueda-de-pedidos" title="Permalink to this headline">¶</a></h3>
+<p>Para la búsqueda de pedidos se facilitan los siguientes filtros:</p>
+<ul class="simple">
+<li><p>País.</p></li>
+<li><p>Área de negocio.</p></li>
+<li><p>Tienda.</p></li>
+<li><p>Estado del pedido.</p></li>
+<li><p>Rango de fechas de pedido.</p></li>
+</ul>
+</div>
+<div class="section" id="section-to-cross-reference">
+<span id="my-reference-label"></span><h3>Section to cross-reference<a class="headerlink" href="#section-to-cross-reference" title="Permalink to this headline">¶</a></h3>
+<p>This is the text of the section.</p>
+<p>It refers to the section itself, see <a class="reference internal" href="../../guia_configuracion/indice_configuracion.html#my-reference-label"><span class="std std-ref">Verificación del proceso de Instalación</span></a>.</p>
+<p><a class="reference internal" href="../../../../_images/image3.png"><img alt="image2" src="../../../../_images/image3.png" style="width: 5.89583in; height: 0.73958in;" /></a></p>
+<p>Una vez seleccionado los filtros, se mostrarán los pedidos al pulsar el
+botón <strong>Buscar</strong>.</p>
+<p><a class="reference internal" href="../../../../_images/image4.png"><img alt="image3" src="../../../../_images/image4.png" style="width: 5.90556in; height: 2in;" /></a></p>
+</div>
+<div class="section" id="detalle-del-pedido">
+<h3>Detalle del pedido.<a class="headerlink" href="#detalle-del-pedido" title="Permalink to this headline">¶</a></h3>
+<p>Para ver el detalle del pedido se pulsa el siguiente botón <a class="reference internal" href="../../../../_images/image5.png"><img alt="image4" src="../../../../_images/image5.png" style="width: 0.51042in; height: 0.4375in;" /></a></p>
+<p><a class="reference internal" href="../../../../_images/image6.png"><img alt="image5" src="../../../../_images/image6.png" style="width: 5.88542in; height: 2.91667in;" /></a></p>
+</div>
+<div class="section" id="pedido-terminado">
+<h3>Pedido terminado.<a class="headerlink" href="#pedido-terminado" title="Permalink to this headline">¶</a></h3>
+<p>Una vez que el pedido se ha traspasado al sistema externo de telepizza
+se pulsará el bóton <a class="reference internal" href="../../../../_images/image7.png"><img alt="image6" src="../../../../_images/image7.png" style="width: 0.5in; height: 0.4in;" /></a> para pasar el pedido del estado <strong>En
+espera</strong> al estado <strong>Terminado</strong>.</p>
+<p><a class="reference internal" href="../../../../_images/image8.png"><img alt="image7" src="../../../../_images/image8.png" style="width: 5.90556in; height: 0.19792in;" /></a></p>
+<p><a class="reference internal" href="../../../../_images/image9.png"><img alt="image8" src="../../../../_images/image9.png" style="width: 5.88542in; height: 0.21875in;" /></a></p>
+<p>Y se continua con el siguiente pedido.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../../guia_tecnica/indice_tecnico.html" class="btn btn-neutral float-right" title="GUIA TÉCNICA" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../indice_funcional.html" class="btn btn-neutral float-left" title="GUIA FUNCIONAL" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, TLPZ
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
