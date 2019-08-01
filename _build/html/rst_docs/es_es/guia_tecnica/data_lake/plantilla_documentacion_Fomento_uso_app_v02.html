@@ -1,0 +1,540 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>JOURNEY - Fomento Uso App &mdash; BlocksInCloud 0.0.1.a documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../../../../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../../" src="../../../../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../../../../_static/jquery.js"></script>
+        <script type="text/javascript" src="../../../../_static/underscore.js"></script>
+        <script type="text/javascript" src="../../../../_static/doctools.js"></script>
+        <script type="text/javascript" src="../../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+    <link rel="next" title="GUIA DE CONFIGURACIÓN E INSTALACIÓN" href="../../guia_configuracion/indice_configuracion.html" />
+    <link rel="prev" title="FUNCIONALIDAD APIFICACIÓN" href="../apificacion/funcionalidades_apificacion.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../../index.html" class="icon icon-home"> BlocksInCloud
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">PRODUCTO:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../producto/intro_producto_billing.html">Producto</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Guía Funcional:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../guia_funcional/index_func.html">Introducción</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Guía Técnica:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../indice_tecnico.html">GUIA TÉCNICA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../orderflow/orderflow_2.html">ORDER CREATION FLOW</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../apificacion/funcionalidades_apificacion.html">FUNCIONALIDAD APIFICACIÓN</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">JOURNEY - Fomento Uso App</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#introduccion">1. INTRODUCCIÓN</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#desarrollo">2. DESARROLLO</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#data-extension">2.1 Data Extension</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#automation">2.2 Automation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#journey">2.3 Journey</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Guía de configuración:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../guia_configuracion/indice_configuracion.html">GUIA DE CONFIGURACIÓN E INSTALACIÓN</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Anexo:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../plantillas/tobbi.html">TITULO DEL DOCUMENTO AQUÍ</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Glosario:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../glosario/glosario_es.html">GLOSARIO</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../index.html">BlocksInCloud</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../../index.html">Docs</a> &raquo;</li>
+        
+      <li>JOURNEY - Fomento Uso App</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../../../_sources/rst_docs/es_es/guia_tecnica/data_lake/plantilla_documentacion_Fomento_uso_app_v02.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <p class="centered">
+<strong><a class="reference internal" href="../../../../_images/image1.png"><img alt="image0" src="../../../../_images/image1.png" style="width: 1.27778in; height: 1.63383in;" /></a></strong></p><div class="section" id="journey-fomento-uso-app">
+<h1>JOURNEY - Fomento Uso App<a class="headerlink" href="#journey-fomento-uso-app" title="Permalink to this headline">¶</a></h1>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 27%" />
+<col style="width: 73%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>Fecha: 24 de julio de 2019</p></td>
+<td><p>Área responsable: Data Lake</p></td>
+</tr>
+</tbody>
+</table>
+<p><a class="reference external" href="#introduccion">1. INTRODUCCIÓN 1</a></p>
+<p><a class="reference external" href="#desarrollo">2. DESARROLLO 2</a></p>
+<p><a class="reference external" href="#data-extension">2.1 Data Extension 2</a></p>
+<p><a class="reference external" href="#automation">2.2 Automation 3</a></p>
+<p><a class="reference external" href="#journey">2.3 Journey 7</a></p>
+<div class="section" id="introduccion">
+<h2>1. INTRODUCCIÓN<a class="headerlink" href="#introduccion" title="Permalink to this headline">¶</a></h2>
+<p>En el presente documento se describe el proceso de desarrollo seguido
+para la generación del Journey “Fomento Uso App”.</p>
+<p>Dicho proceso se ha estructurado en 3 partes:</p>
+<ul class="simple">
+<li><p>Creación de Data Extension.</p></li>
+<li><p>Creación de Automation.</p></li>
+<li><p>Creación de Journey.</p></li>
+</ul>
+<p>Además se ha dividido el público objetivo en 3 segmentos:</p>
+<ul class="simple">
+<li><p>Segmento 1: Ticket Medio &lt;= 10€</p></li>
+<li><p>Segmento 2: 10€ &lt; Ticket Medio &lt;= 15€</p></li>
+<li><p>Segmento 3: Ticket Medio &gt; 15€</p></li>
+</ul>
+</div>
+<div class="section" id="desarrollo">
+<h2>2. DESARROLLO<a class="headerlink" href="#desarrollo" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="data-extension">
+<span id="section-1"></span><h2>2.1 Data Extension<a class="headerlink" href="#data-extension" title="Permalink to this headline">¶</a></h2>
+<p>Data Extension son tablas de datos, en nuestro caso utilizadas para
+segmentar a los clientes según funcionalidades.</p>
+<p>Se han creado las siguientes Data Extension dentro de la ruta “Data
+Extensions &gt; Journeys &gt; Fomento Uso App”:</p>
+<ul class="simple">
+<li><p>Público Objetivo</p></li>
+<li><p>Grupo de Control</p></li>
+<li><p>Sin Grupo de Control</p></li>
+<li><p>Histórico</p></li>
+<li><p>Cupones (x3)</p></li>
+<li><p>Cupones Sin Asignar (x3)</p></li>
+<li><p>Cupones Verificación</p></li>
+</ul>
+</div>
+<div class="section" id="automation">
+<h2>2.2 Automation<a class="headerlink" href="#automation" title="Permalink to this headline">¶</a></h2>
+<p>Automation Builder es la herramienta que ejecuta actividades
+de gestión de datos y marketing de forma automática.</p>
+<p><a class="reference internal" href="../../../../_images/image22.png"><img alt="image1" src="../../../../_images/image22.png" style="width: 6.52778in; height: 5.16757in;" /></a></p>
+<p>Se ha creado un Automation en la ruta “my automations &gt; Journey Builder
+Automations &gt; Fomento Uso App”, con los siguientes pasos:</p>
+<ul class="simple">
+<li><p>STEP 1.1.- <strong>FomentoUsoApp</strong>: Selecciona el público objetivo del
+Journey.</p>
+<ul>
+<li><p>Tipo de actividad: SQL Query</p></li>
+<li><p>Data Extension objetivo: FomentoUsoApp</p></li>
+<li><p>Acción sobre Data Extension: Overwrite</p></li>
+<li><p>Query:</p></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<div><p><em>select ct.* from ClientesTelepizza ct</em></p>
+<p><em>where ct.CambiaSegmento = 0</em></p>
+<p><em>and ct.Fecha_de_ultimo_pedido__c = getdate()-1</em></p>
+<p><em>and ct.TP_Ticket_Medio__c &gt; 0</em></p>
+<p><em>and ct.TP_Ticket_Medio__c is not null</em></p>
+<p><em>and ct.Fecha_Ultimo_Envio &lt;= getdate()-3</em></p>
+<p><em>and ct.ID not in (select rh.ID from VT_CA_FomentoUsoApp_Historico
+rh</em></p>
+<p><em>where rh.Id=ct.Id and rh.Fecha_Proceso &gt; getdate()-90)</em></p>
+<p><em>and ct.Fecha_de_ultimo_pedido__c != ct.Fecha_de_primer_pedido__c</em></p>
+<p><em>and ct.TP_Contactable__c = 1</em></p>
+<p><em>and ct.TP_Canal_Habitual__c = 410 or</em></p>
+<p><em>ct.TP_Canal_Habitual__c = 411 or</em></p>
+<p><em>ct.TP_Canal_Habitual__c = 420 or</em></p>
+<p><em>ct.TP_Canal_Habitual__c = 421 or</em></p>
+<p><em>ct.TP_Canal_Habitual__c = 430 or</em></p>
+<p><em>ct.TP_Canal_Habitual__c = 431 or</em></p>
+<p><em>ct.TP_Canal_Habitual__c = 440 or</em></p>
+<p><em>ct.TP_Canal_Habitual__c = 441 or</em></p>
+<p><em>ct.TP_Canal_Habitual__c = 434 or</em></p>
+<p><em>ct.TP_Canal_Habitual__c = 400 or</em></p>
+<p><em>ct.TP_Canal_Habitual__c = 445 or</em></p>
+<p><em>ct.TP_Canal_Habitual__c = 433</em></p>
+</div></blockquote>
+<ul class="simple">
+<li><p>STEP 2.1.- <strong>FomentoUsoApp_GC_Seg1</strong>: Genera un grupo de clientes
+pertenecientes al publico objetivo sobre los cuales no se aplicará el
+Journey. Este grupo será un 10% del total de clientes del segmento 1.</p>
+<ul>
+<li><p>Tipo de actividad: SQL Query</p></li>
+<li><p>Data Extension objetivo: FomentoUsoApp_GC_Seg1</p></li>
+<li><p>Acción sobre Data Extension: Overwrite</p></li>
+<li><p>Query:</p></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<div><p><em>select top 10 percent *</em></p>
+<p><em>from VT_CA_FomentoUsoApp</em></p>
+<p><em>where TP_Ticket_Medio__c &lt;= 10</em></p>
+<p><em>order by newid()</em></p>
+</div></blockquote>
+<p>⊗Los pasos STEP 3.1 y STEP 4.1 se desarrollan de manera análoga al STEP
+2.1, pero con sus respectivos segmentos.</p>
+<ul class="simple">
+<li><p>STEP 5.1.- <strong>FomentoUsoApp_Exclusion</strong>: Genera el grupo de clientes
+pertenecientes al Grupo de Control, a los cuales se les cambian el
+campo GrupoControl para caracterizarlos.</p>
+<ul>
+<li><p>Tipo de actividad: SQL Query</p></li>
+<li><p>Data Extension objetivo: FomentoUsoApp</p></li>
+<li><p>Acción sobre Data Extension: Update</p></li>
+<li><p>Query:</p></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<div><p><em>select 1 as GrupoControl,fua.Id,fua.ContactKey</em></p>
+<p><em>from VT_CA_FomentoUsoApp fua</em></p>
+<p><em>join VT_CA_FomentoUsoApp_GC gc on fua.Id=gc.Id</em></p>
+</div></blockquote>
+<ul class="simple">
+<li></li>
+<li></li>
+</ul>
+<ul class="simple">
+<li><p>STEP 6.1.- <strong>FomentoUsoApp_SinGC</strong>: Genera el grupo de clientes que
+recibirán la comunicación. Para ellos se seleccionan aquellos que no
+hayan sido caracterizados como pertenecientes al Grupo de Control.</p>
+<ul>
+<li><p>Tipo de actividad: SQL Query</p></li>
+<li><p>Data Extension objetivo: FomentoUsoApp_SinGC</p></li>
+<li><p>Acción sobre Data Extension: Overwrite</p></li>
+<li><p>Query:</p></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<div><p><em>select * from VT_CA_FomentoUsoApp fua</em></p>
+<p><em>where fua.GrupoControl = 0</em></p>
+</div></blockquote>
+<ul class="simple">
+<li><p>STEP 7.1.- <strong>FomentoUsoApp_AsignarCupones_Seg1</strong>: Añade la oferta
+correspondiente al grupo de clientes pertenecientes al público
+objetivo del segmento 1.</p>
+<ul>
+<li><p>Tipo de actividad: SQL Query</p></li>
+<li><p>Data Extension objetivo: FomentoUsoApp_SinGC</p></li>
+<li><p>Acción sobre Data Extension: Update</p></li>
+<li><p>Query:</p></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<div><p><em>Select c.cupon,</em></p>
+<p><em>cl.Id,</em></p>
+<p><em>cl.ContactKey</em></p>
+<p><em>From (</em></p>
+<p><em>SELECT Id,ContactKey, ROW_NUMBER() OVER (ORDER BY Id) as tp_rank</em></p>
+<p><em>from VT_CA_FomentoUsoApp fua</em></p>
+<p><em>where (fua.GrupoControl=0 and fua.TP_Ticket_Medio__c &lt;= 10) ) cl</em></p>
+<p><em>left Join (</em></p>
+<p><em>SELECT cupon, ROW_NUMBER() OVER (ORDER BY cupon) as c_rank</em></p>
+<p><em>from VT_CA_FomentoUsoApp_Cupones_Seg1</em></p>
+<p><em>where Asignado = 0 ) c</em></p>
+<p><em>ON cl.tp_rank = c.c_rank</em></p>
+</div></blockquote>
+<p>⊗Los pasos STEP 8.1 y STEP 9.1 se desarrollan de manera análoga al STEP
+7.1, pero con sus respectivos segmentos.</p>
+<ul class="simple">
+<li><p>STEP 10.1.- <strong>FomentoUsoApp_AsignarCupones_Seg1</strong>: Añade la oferta
+correspondiente al grupo de clientes pertenecientes al público
+objetivo del segmento 1.</p>
+<ul>
+<li><p>Tipo de actividad: SQL Query</p></li>
+<li><p>Data Extension objetivo: FomentoUsoApp_Cupones_Seg1</p></li>
+<li><p>Acción sobre Data Extension: Update</p></li>
+<li><p>Query:</p></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<div><p><em>Select 1 as Asignado, GETDATE() as FechaAsignacion, fuasin.Cupon</em></p>
+<p><em>from VT_CA_FomentoUsoApp_SinGC fuasin</em></p>
+<p><em>join VT_CA_FomentoUsoApp_Cupones_Seg1 fuacup on
+fuasin.Cupon=fuacup.Cupon</em></p>
+</div></blockquote>
+<p>⊗ Los pasos STEP 10.2 y STEP 10.3 se desarrollan de manera análoga al
+STEP 10.1, pero con sus respectivos segmentos.</p>
+<ul class="simple">
+<li><p>STEP 11.1.- <strong>FomentoUsoApp_CuponesVerificacion</strong>: Genera el grupo de
+clientes pertenecientes al público objetivo que NO ha recibido una
+oferta.</p>
+<ul>
+<li><p>Tipo de actividad: SQL Query</p></li>
+<li><p>Data Extension objetivo: FomentoUsoApp_Cupones_Verificacion</p></li>
+<li><p>Acción sobre Data Extension: Overwrite</p></li>
+<li><p>Query:</p></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<div><p><em>select *</em></p>
+<p><em>from VT_CA_FomentoUsoApp_SinGC</em></p>
+<p><em>where cupon is null</em></p>
+</div></blockquote>
+<ul class="simple">
+<li><p>STEP 12.1.- <strong>FomentoUsoApp_Cupones_Verificacion</strong>: Realiza un conteo
+de los clientes que NO han sido vinculados con la asignación de una
+oferta. El resultado debe ser 0, si se obtiene un valor diferente se
+produce la parada del Journey y el envío de unos email de aviso a los
+correos correspondientes:</p>
+<ul>
+<li><p>Tipo de actividad: Verfication</p></li>
+</ul>
+</li>
+<li><p>STEP 13.1.- <strong>FomentoUsoApp_Historico</strong>: Genera el grupo de clientes
+a los cuales se les envia una comunicación, asignando al campo de
+“Fecha Proceso” la fecha en la cual se ha ejecutado el Journey.</p>
+<ul>
+<li><p>Tipo de actividad: Verfication</p></li>
+<li><p>Data Extension objetivo: FomentoUsoApp_Historico</p></li>
+<li><p>Acción sobre Data Extension: Update</p></li>
+<li><p>Query:</p></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<div><p><em>Select fua.</em>,getDate() as Fecha_Proceso*</p>
+<p><em>from VT_CA_FomentoUsoApp fua</em></p>
+</div></blockquote>
+<ul class="simple">
+<li><p>STEP 14.1.- <strong>FomentoUsoApp_CuponesSinAsignar_Seg1</strong> Genera el grupo
+de cupones los cuales no han sido asignados a un cliente:</p>
+<ul>
+<li><p>Tipo de actividad: SQL Query.</p></li>
+<li><p>Data Extension objetivo: FomentoUsoApp_SinAsignar_Seg1</p></li>
+<li><p>Acción sobre Data Extension: Overwrite</p></li>
+<li><p>Query:</p></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<div><p><em>SELECT Cupon, Asignado, FechaAsignacion</em></p>
+<p><em>from VT_CA_FomentoUsoApp_Cupones_Seg1</em></p>
+<p><em>where Asignado = 0</em></p>
+</div></blockquote>
+<p>⊗Los pasos STEP 14.2 y STEP 14.3 se desarrollan de manera análoga al
+STEP 14.1, pero con sus respectivos segmentos.</p>
+<ul class="simple">
+<li><p>STEP 15.1.- <strong>FomentoUsoApp_Cupones_SinAsignar_Seg1</strong>: Realiza un
+conteo de los cupones que NO han sido asignados con ningún cliente.
+Se especifica un número mínimo de cupones sin asignar de
+aproximadamente la cantidad necesaria para la ejecución del Journey
+durante los próximos 3 días. Cuando el número es inferior al mínimo
+se produce el envío de email de aviso a los correos correspondientes:</p>
+<ul>
+<li><p>Tipo de actividad: Verification.</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>⊗</strong> Los pasos STEP 15.2 y STEP 15.3 se desarrollan de manera análoga
+al STEP 15.1, pero con sus respectivos segmentos.</p>
+</div>
+<div class="section" id="journey">
+<h2>2.3 Journey<a class="headerlink" href="#journey" title="Permalink to this headline">¶</a></h2>
+<p>Journey Builder es la herramienta de planificación de campañas que
+permite guiar a los clientes por sus trayectorias con la marca. Una vez
+configurado, Journey Builder ejecuta automáticamente campañas con
+capacidad de respuesta.</p>
+<p>El Journey se ha generado con el siguiente modelo:</p>
+<p><a class="reference internal" href="../../../../_images/image31.png"><img alt="image2" src="../../../../_images/image31.png" style="width: 5.31489in; height: 5.50926in;" /></a></p>
+<p>Se han aplicado las siguientes configuraciones:</p>
+<ul class="simple">
+<li><p>Filter Criteria: CambiaSegmento = false</p></li>
+<li><p>Exit Criteria: CambioSegmento = true</p></li>
+<li><p>Data Extension: FomentoUsoApp_SinGC</p></li>
+<li><p>Fichas:</p>
+<ul>
+<li><p>Decision Split</p></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<div><p><a class="reference internal" href="../../../../_images/image41.png"><img alt="image3" src="../../../../_images/image41.png" style="width: 3.77569in; height: 2.49583in;" /></a></p>
+<ul class="simple">
+<li><p>Einstein STO</p></li>
+<li><p>Email: Creatividades “UsoApp0719 - TM 10”, ” UsoApp0719 … TM 10-15”,</p></li>
+</ul>
+<p>“UsoApp0719 - TM 15”</p>
+<ul class="simple">
+<li><p>Wait By Duration: 1days</p></li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../../guia_configuracion/indice_configuracion.html" class="btn btn-neutral float-right" title="GUIA DE CONFIGURACIÓN E INSTALACIÓN" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../apificacion/funcionalidades_apificacion.html" class="btn btn-neutral float-left" title="FUNCIONALIDAD APIFICACIÓN" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, TLPZ
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
